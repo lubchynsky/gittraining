@@ -7,9 +7,6 @@ const groupAnagrams = function (strs) {
         
         acum[key].push(val);
         return acum
-    },{});
+    }, {});
     return Object.values(result)
 };
-
-
-console.log(groupAnagrams(strs))
